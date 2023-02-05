@@ -1,0 +1,43 @@
+.footer{
+    left: 0px;
+    top: 901px;
+    height: 127px;
+    line-height: 20px;
+    background-color: var(--navColor);
+    text-align: center;
+    border-top: 1px solid var(--contoursGreen);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add__btn{
+    width: 75px;
+    height: 75px;
+    line-height: 20px;
+    background-color: var(--navColor);
+    text-align: center;
+    border: 3px solid var(--linesColor);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+}
+.add__btn:hover{
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.4);
+}
+
+.plus_horizontal, .plus_vertical {
+    border: 1px solid var(--linesColor);
+}
+
+.plus_horizontal{
+    width: 35px;
+}
+
+.plus_vertical{
+    position: absolute;
+    height: 35px;
+}

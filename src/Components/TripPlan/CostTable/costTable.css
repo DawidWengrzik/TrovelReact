@@ -1,0 +1,89 @@
+table{
+    border-spacing: 2px;
+    display: block;
+}
+
+.headers__row{
+    background-color: var(--navColor);    
+    color: var(--contoursGreen);
+}
+
+thead tr th{
+    border-bottom: solid var(--linesColor) 0.14rem;
+    text-align: left;
+    padding: 0.5em 0 0.1em 0.5em;
+    position: relative;
+}
+
+thead tr th:nth-child(1){
+    border-radius: 15px 0 0 0;
+}
+
+thead tr th:nth-last-child(1){
+    border-radius: 0 15px 0 0;
+}
+
+.adding__column{
+    box-sizing: border-box;
+    position: relative;
+}
+
+.adding__column span{
+    box-sizing: border-box;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.adding__column-inpt{
+    background-color: transparent;
+    border: none;
+}
+
+.adding__column-btn{
+    cursor: pointer;
+    background-color: transparent;    
+    border: none;
+    font-size: 15px;
+}
+
+.footer__row td{
+    border-top: solid var(--linesColor) 0.14rem;
+}
+
+.footer__row td input{
+    background-color: transparent;
+    border: none;
+    border-bottom: solid var(--linesColor) 0.1rem;
+}
+
+.adding__row-btn{
+    cursor: pointer;
+    background-color: transparent;  
+    left: 0; 
+    top: 30px;
+    border: none;
+    font-size: 15px;
+    width: 100%;
+    color: var(--contoursGreen);
+}
+
+.summary__row td{
+    border-top: solid var(--linesColor) 0.14rem;
+    background-color: var(--navColor);
+    padding: 0.1em 0 0.5em 0.5em;
+    border-radius: 0 0 15px 15px;
+}
+
+.resizer {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 5px;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: col-resize;
+    user-select: none;
+    touch-action: none;
+  }
